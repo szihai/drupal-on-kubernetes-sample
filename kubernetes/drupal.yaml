@@ -46,7 +46,7 @@ spec:
         tier: frontend
     spec:
       containers:
-        - image: drupal/drupal:latest
+        - image: drupal:latest
           name: drupal
           ports:
             - containerPort: 30080
